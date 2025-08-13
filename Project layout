@@ -1,0 +1,18 @@
+iot-sensor-datalake/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── lambda/
+│   └── ingest_handler.py
+├── simulator/
+│   └── simulate.py
+├── analytics/
+│   ├── aggregate_anomaly.py
+│   └── sql/
+│       ├── create_athena_table.sql
+│       └── queries.sql
+└── infra/
+    └── aws/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf
