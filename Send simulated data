@@ -1,0 +1,5 @@
+cd ../../simulator
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r ../requirements.txt
+export INGEST_URL="<paste-from-terraform>"
+python simulate.py --device-count 5 --rate-per-sec 2 --duration-sec 60
