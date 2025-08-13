@@ -1,0 +1,4 @@
+git add .
+git commit -m "Add Terraform infra, Lambda ingest, simulator, analytics, and Athena SQL"
+git tag v0.1.0
+git push --tags
