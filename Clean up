@@ -1,0 +1,22 @@
+cd ../infra/aws
+terraform destroy -auto-approve
+
+Notes
+Lambda URL is public in this demo; lock it down (auth, VPC) before production.
+
+Adjust S3 lifecycle in infra/aws/main.tf.
+
+perl
+Copy
+Edit
+
+## requirements.txt
+```txt
+boto3
+botocore
+pandas
+numpy
+requests
+python-dateutil
+s3fs
+scikit-learn
