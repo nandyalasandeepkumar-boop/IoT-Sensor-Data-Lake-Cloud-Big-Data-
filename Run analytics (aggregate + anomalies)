@@ -1,0 +1,2 @@
+cd ../analytics
+python aggregate_anomaly.py --bucket <YOUR_BUCKET> --prefix raw/ --output s3://<YOUR_BUCKET>/curated/
