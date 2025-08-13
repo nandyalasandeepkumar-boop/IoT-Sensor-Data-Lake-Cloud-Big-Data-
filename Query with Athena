@@ -1,0 +1,3 @@
+Create the external table using analytics/sql/create_athena_table.sql (replace bucket).
+
+Run sample queries in analytics/sql/queries.sql.
